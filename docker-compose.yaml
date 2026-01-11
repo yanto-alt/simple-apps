@@ -1,9 +1,9 @@
 services:
   app:
-  container_name: ct-simpleapps-kuswiyanto
-  image: simpleapps-kuswiyanto
-  build: ./app
-  ports:
-  - "10012:3000"
-  restart: always
-  env_file: ./app/.env
+    container_name: ct-simpleapps-kuswiyanto
+    image: simpleapps-kuswiyanto
+    build: ./app
+    ports:
+    - "10012:3000"
+    restart: always
+    env_file: ./app/.env
