@@ -1,7 +1,7 @@
 services:
   app:
+  container_name: ct-simpleapp-kuswiyanto
   image: simpleapp-kuswiyanto
-  container_name: simpleapp-kuswiyanto
   build: ./app
   ports:
   - "10012:3000"
